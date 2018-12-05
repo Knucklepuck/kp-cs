@@ -1,0 +1,24 @@
+{
+    "name": "knucklepuck/kp-cs",
+    "description": "Codesniffer standards used by Knucklepuck",
+    "type": "phpcodesniffer-standard",
+    "require": {
+        "php": ">=5.3",
+        "squizlabs/php_codesniffer": "^2.9.0 || ^3.0.2"
+    },
+    "suggest" : {
+		"dealerdirect/phpcodesniffer-composer-installer": "^0.4.3"
+	},
+    "license": "MIT",
+    "minimum-stability" : "RC",
+    "authors": [
+        {
+            "name": "Joey Blake",
+            "email": "jblake@knucklepuckmedia.com"
+        }
+    ],
+    "scripts"    : {
+		"post-install-cmd": "\"vendor/bin/phpcs\" --config-set installed_paths ../../..",
+		"post-update-cmd" : "\"vendor/bin/phpcs\" --config-set installed_paths ../../.."
+	}
+}
