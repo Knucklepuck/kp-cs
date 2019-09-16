@@ -5,6 +5,8 @@
 	<rule ref="WordPress">
 
 		<exclude name="Squiz.Commenting.InlineComment.InvalidEndChar" />
+		
+		<exclude name="WordPress.Files.FileName.InvalidClassFileName" />
 
 		<exclude name="WordPress.Files.FileName.NotHyphenatedLowercase" />
 
