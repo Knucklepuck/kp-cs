@@ -71,6 +71,8 @@
 
 		<!-- A lot can go wrong when defining an array -->
 		<exclude name="WordPress.Arrays.ArrayKeySpacingRestrictions" />
+		
+		<exclude name="Generic.Arrays.DisallowShortArraySyntax.Found" />
 
 		<exclude name="WordPress.PHP.YodaConditions.NotYoda" />
 
