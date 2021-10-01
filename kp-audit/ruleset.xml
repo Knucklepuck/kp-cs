@@ -68,7 +68,6 @@
 
 
 		<!-- A lot can go wrong when defining an array -->
-		<exclude name="WordPress.Arrays.ArrayDeclaration" />
 		<exclude name="WordPress.Arrays.ArrayKeySpacingRestrictions" />
 
 		<exclude name="WordPress.PHP.YodaConditions.NotYoda" />
