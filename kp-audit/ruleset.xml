@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<ruleset name="KP-Code-Review">
+<ruleset name="KP-Audit">
 	<description>Apply the WordPress coding standards, focusing on things like sanitization, late-escaping, etc. but not making noise about documentation, whitespace, etc.</description>
 
 	<rule ref="WordPress">
